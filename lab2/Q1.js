@@ -17,7 +17,9 @@ function sumition(Num){
     }return Sum;
 }
 
-var Num=[1,2,3];
+var N=prompt("num: ");
+var Num=parseInt(N.split(""));
+
 var T=sumition(Num);
 
 document.write("sumition = ",T)
